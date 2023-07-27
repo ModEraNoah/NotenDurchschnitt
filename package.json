@@ -1,0 +1,12 @@
+{ 
+  "type": "module",
+  "name": "notendurchschnitt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "notenschnitt.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
