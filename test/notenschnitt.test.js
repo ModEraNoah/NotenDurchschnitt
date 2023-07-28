@@ -35,6 +35,13 @@ describe("Eingabe prüfen", () => {
 
 describe("Richtige Berechnung prüfen", () => {
 
+    it("Realer Workflow genau eine Note ohne CP", () => {
+        let note = [1.3, ];
+        let noten = [];
+        noten.push(note);
+        equal(schnitt.notenschnitt(noten), 1.3);
+    });
+
     it("Genau eine Note übergeben", () => {
         equal(schnitt.notenschnitt([[1.3, 5]]), 1.3);
     });

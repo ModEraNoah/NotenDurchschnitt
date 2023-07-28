@@ -24,6 +24,6 @@ export function notenschnitt(notenInput) {
       gewicht = parseInt(gewicht) + parseInt(element[1]);
     }
   }
-  return Math.floor(1000*erg/gewicht)/1000;
+  return Math.floor(100*erg/gewicht)/100;
   //return erg/gewicht
 }
